@@ -17,5 +17,6 @@ public final class PropertiesOperations {
     public Properties setProperties(Properties properties, String key, String value) throws IOException {
         properties.setProperty(key, value);
         return properties;
+
     }
 }
